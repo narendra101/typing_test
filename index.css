@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: linear-gradient(to left, #dac0ff, #f2ebfe);
+    background-size: cover;
+    /* height: 100vh; */
+    padding: 20px 15px;
+    padding-bottom: 25px;
+}
+
+.main-heading {
+    color: #690cb0;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.small-description {
+    color: #3e4c59;
+    font-weight: 500;
+}
+
+.timer {
+    margin-left: 35px;
+    font-size: 45px;
+    position: relative;
+    bottom: 15px;
+}
+
+.seconds-tag {
+    position: relative;
+    top: 18px;
+    margin-left: 4px;
+}
+
+.small-card {
+    background-color: #f2ebfe;
+    border-radius: 10px;
+    border: 1px solid #9aa5b1;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.result {
+    color: #3e4c59;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#submitBtn {
+    background-color: #690cb0;
+    color: #ffffff;
+    border: none;
+}
+
+#resetBtn {
+    background-color: #ffffff;
+    margin-left: 10px;
+    border: none;
+}
